@@ -30,7 +30,7 @@ input.TextSize = 14
 input.BorderSizePixel = 0
 Instance.new("UICorner", input).CornerRadius = UDim.new(0, 6)
 
-local button = Instance.new("TextButton", frame)
+local button = Instance.new("YouKey", frame)
 button.Size = UDim2.new(0.6, 0, 0.2, 0)
 button.Position = UDim2.new(0.2, 0, 0.7, 0)
 button.Text = "✅ ยืนยัน"
